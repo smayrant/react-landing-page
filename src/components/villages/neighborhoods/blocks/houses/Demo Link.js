@@ -14,3 +14,5 @@ class DemoLink extends React.Component{
     )
   }
 }
+
+export default DemoLink;

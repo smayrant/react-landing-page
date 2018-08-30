@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import { Container, Row, Col} from 'react-grid-system';
+import Laptop from './blocks/houses/Laptop.js';
+import SectionDescription from './blocks/Section Description.js';
 
 class SectionA extends React.Component{
   render(){
@@ -16,3 +18,5 @@ class SectionA extends React.Component{
     )
   }
 }
+
+export default SectionA;
