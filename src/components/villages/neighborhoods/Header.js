@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { Container, Row, Col } from 'react-grid-system';
+import { Container, Row } from 'react-grid-system';
 import Navigation from './blocks/Navigation.js';
 import CallToAction from './blocks/Call To Action.js';
 import SlackChannel from './blocks/houses/Slack Channel.js';
@@ -9,7 +8,7 @@ class Header extends React.Component {
   render(){
     return(
       <section className="header">
-        <container>
+        <Container>
            <Row>
              <Navigation />
            </Row>
@@ -19,7 +18,7 @@ class Header extends React.Component {
            <Row>
              <SlackChannel />
            </Row>
-        </container>
+        </Container>
       </section>
     )
   }

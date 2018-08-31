@@ -1,6 +1,5 @@
 import React from 'react';
-import ReactDom from 'react-dom';
-import { Container, Row, Col } from 'react-grid-system';
+import { Container, Row } from 'react-grid-system';
 import ArticleCover from './blocks/houses/Article Cover.js'
 import SectionDescription from './blocks/Section Description.js';
 

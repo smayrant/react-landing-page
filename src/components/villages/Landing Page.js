@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import { Container, Row, Col } from 'react-grid-system';
 import Header from './neighborhoods/Header.js';
 import SectionA from './neighborhoods/Section A.js';
 import SectionB from './neighborhoods/Section B.js';
