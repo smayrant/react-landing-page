@@ -4,7 +4,7 @@ class DemoLink extends React.Component{
   render(){
     return(
       <div>
-        <a href="#">
+        <a href="">
           <span className="demo-link">
             Demo
           </span>

@@ -4,7 +4,7 @@ class Branding extends React.Component{
   render(){
     return(
       <div>
-        <img className="branding" alt="branding" src="./images/branding.png"/>
+        <a className="branding" href=""> DevBot </a>
       </div>
     )
   }
