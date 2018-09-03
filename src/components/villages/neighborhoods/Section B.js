@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row } from 'react-grid-system';
+import { Container, Row, Col } from 'react-grid-system';
 import ArticleCover from './blocks/houses/Article Cover.js'
 import SectionDescription from './blocks/Section Description.js';
 
@@ -9,8 +9,13 @@ class SectionB extends React.Component{
       <section className="section-b">
         <Container>
           <Row>
-            <ArticleCover />
-            <SectionDescription />
+            <Col lg={6}>
+              <ArticleCover />
+            </Col>
+            <Col lg={6}>
+              <SectionDescription />
+            </Col>
+
           </Row>
         </Container>
       </section>

@@ -4,7 +4,7 @@ class Branding extends React.Component{
   render(){
     return(
       <div>
-        <a className="branding" href=""> DevBot </a>
+        <a className="branding" href=""> {'{ DevBot }'} </a>
       </div>
     )
   }

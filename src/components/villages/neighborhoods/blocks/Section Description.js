@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Col } from 'react-grid-system';
+import { Container } from 'react-grid-system';
 import Heading from './houses/Heading.js';
 import Divider from './houses/Divider.js';
 import Paragraph from './houses/Paragraph.js';
@@ -9,11 +9,9 @@ class SectionDescription extends React.Component{
     return(
       <section className="section-description">
         <Container>
-          <Col lg={6}>
             <Heading />
             <Divider />
             <Paragraph />
-          </Col>
         </Container>
       </section>
     )

@@ -12,9 +12,7 @@ class SectionA extends React.Component{
             <Col lg={6}>
               <SectionDescription />
             </Col>
-            <Col lg={6}>
-              <Laptop />
-            </Col>
+            <Laptop />
           </Row>
         </Container>
       </section>
